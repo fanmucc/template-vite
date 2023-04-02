@@ -2,6 +2,9 @@
 import path from "path";
 import { defineConfig } from "vite";
 export default defineConfig({
+	// 配置env文件路径
 	envDir: path.resolve(__dirname, "./env"),
-	envPrefix: "VITE_",
+	// 设置暴露出去的公共变量前缀，import.meta.env.VITE_***
+	// string | string[]
+	envPrefix: "VITE_", // ["VITE_"]
 });
