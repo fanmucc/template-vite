@@ -27,7 +27,7 @@ export default defineConfig({
 			"@": path.resolve(__dirname, "./src"),
 		},
 		// 导入时想要省略的扩展名列表
-		extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".vue", "css"],
+		extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".vue", "css", "json"],
 	},
 	// css 相关配置
 	css: {
